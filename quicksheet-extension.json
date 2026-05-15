@@ -1,5 +1,9 @@
 {
   "name": "quicksheet-mileage-ext",
+  "prefix": "mileage",
   "version": "1.0.0",
-  "entry": "dotnet run --project QuickSheetMileage.csproj"
+  "description": "IRS standard-mileage deduction calculator (business/medical/charity, 2021-2025). Pure math, zero deps.",
+  "author": "cemheren",
+  "entry": "dotnet run --project QuickSheetMileage.csproj",
+  "repository": "https://github.com/cemheren/quicksheet-mileage-ext"
 }
