@@ -1,5 +1,15 @@
 {
-  "name": "quicksheet-mileage-ext",
+  "name": "IRS Mileage Calculator",
+  "prefix": "mileage",
   "version": "1.0.0",
-  "entry": "dotnet run --project QuickSheetMileage.csproj"
+  "description": "IRS standard-mileage deduction calculator — business, medical, and charity rates for 2021-2025",
+  "author": "cemheren",
+  "entry": "dotnet run --project QuickSheetMileage.csproj",
+  "params": ["miles year purpose — e.g. '1200 2024 business'"],
+  "examples": [
+    "mileage: 1200 2024 business",
+    "mileage: 500 2025 medical",
+    "mileage: 300 2023 charity"
+  ],
+  "repository": "https://github.com/cemheren/quicksheet-mileage-ext"
 }
